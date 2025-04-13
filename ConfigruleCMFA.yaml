@@ -31,72 +31,174 @@ dns:
     - 8.8.8.8
     - 1.1.1.1
     - 112.215.203.254
-proxies:
-  - name: AKUN1
-    server: quiz.int.vidio.com
-    port: 80
-    type: vmess
-    uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id2-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: id2-ray.ipservers.xyz
-    udp: true
-  - name: AKUN2
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: id1vless.ipservers.xyz
-    udp: true
-  - name: AKUN3
-    server: quiz.int.vidio.com
-    port: 443
-    type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: id2vless.ipservers.xyz
-    udp: true
 
+proxies:
+  - name: Amazon.com
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: Akamai Connected Cloud
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /172.232.239.151-587
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: Alibaba
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /8.215.196.18-587
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: 2 Akamai Connected Cloud 
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /172.232.237.112-2053
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: 2 Amazon.com
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: PT Pusat Media Indonesia
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: First Cagayan Converge Data Center Inc
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /203.194.112.119-2053
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: 2 First Cagayan Converge Data Center Inc
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 22dccf03-83fc-433b-b2b6-e0cebb41f29c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /203.194.112.119-8443
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+  - name: PT Telkom Indonesia
+    server: support.vidio.com
+    port: 443
+    type: vless
+    uuid: 6d231278-54e1-4c90-8b2b-8cc2166b9c2a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hitamlegam.xosaseg971.workers.dev
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: hitamlegam.xosaseg971.workers.dev
+    udp: true
+    
 proxy-groups:
   - name: ID-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
-      - AKUN3
+      - Amazon.com
+      - Akamai Connected Cloud
+      - Alibaba
+      - 2 Akamai Connected Cloud 
+      - 2 Amazon.com
+      - PT Pusat Media Indonesia
+      - First Cagayan Converge Data Center Inc
+      - 2 First Cagayan Converge Data Center Inc
+      - PT Telkom Indonesia
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
-      - AKUN3
+      - Amazon.com
+      - Akamai Connected Cloud
+      - Alibaba
+      - 2 Akamai Connected Cloud 
+      - 2 Amazon.com
+      - PT Pusat Media Indonesia
+      - First Cagayan Converge Data Center Inc
+      - 2 First Cagayan Converge Data Center Inc
+      - PT Telkom Indonesia
       
   - name: IKLAN
     type: select
@@ -110,6 +212,19 @@ proxy-groups:
      - ID-X
      - DIRECT
      - REJECT
+
+  - name: pilih
+    type: select
+    proxies:
+      - Amazon.com
+      - Akamai Connected Cloud
+      - Alibaba
+      - 2 Akamai Connected Cloud 
+      - 2 Amazon.com
+      - PT Pusat Media Indonesia
+      - First Cagayan Converge Data Center Inc
+      - 2 First Cagayan Converge Data Center Inc
+      - PT Telkom Indonesia
 
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
